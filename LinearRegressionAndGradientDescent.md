@@ -34,35 +34,6 @@ Some imporant point regardin linear regression are;
 - This process is repeated until the cost of coefficients is 0 or near 0 value.
 
 
-### Project
-- Introduction: Create a linear regression model, and fit it to given data using Gradient descent algorithm.
-
-- Task 1: Import libraries
-```python:
-import numpy as np
-import matplotlib.pyplot as plt
-```
-
-- Task 2: The dataset have Area, Distance and Price. The independent variables are Area and Distance (denoted as X), and dependent variable is Price (denoted as y).
-
- Dataset
- Real estate agent table:
- |Area|Distance|Price|
- |---|---|---|
- |70|3|21200|
- |50|1|22010|
- |120|9|24305|
- |100|2|31500|
- 
- 
-- Task 2: Initialize Parameters
-- Task 3: Forward Pass
-- Task 4: Compute Loss
-- Task 5: Backward Pass
-- Task 6: Update Parameters
-- Task 7: Training Loop
-- Task 8: Predictions
-
 
 ### References
 https://en.wikipedia.org/wiki/Gradient_descent
