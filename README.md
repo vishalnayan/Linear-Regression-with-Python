@@ -24,7 +24,6 @@ Some imporant point regardin linear regression are;
 - GD algorithm is best used in the scenarios when the parameters cannot be calculated analytically(i.e. using linear algebra), and must be searched by a optimization algorithm.
 - Common examples of algorithms with coefficients that can be optimized using gradient descent are Linear Regression and Logistic Regression.
 - Every ML algorithm has an optimization algorithm at its core, and Gradient descent algorithem is a simple algorithm which you can use it with any ML algo.
-- GD algorithm can be used with algorithms like linear regression.
 - GD algorithm scales to a very large datasets.
 
 ### Step to calculate Gradient Descent 
@@ -35,11 +34,34 @@ Some imporant point regardin linear regression are;
 - This process is repeated until the cost of coefficients is 0 or near 0 value.
 
 
-
-
-
 ### Project
-- Create a linear regression model, and fit it to given data using Gradient descent algorithm.
+- Introduction: Create a linear regression model, and fit it to given data using Gradient descent algorithm.
+
+- Task 1: Import libraries
+```python:
+import numpy as np
+import matplotlib.pyplot as plt
+```
+
+- Task 2: The dataset have Area, Distance and Price. The independent variables are Area and Distance (denoted as X), and dependent variable is Price (denoted as y).
+
+ Dataset
+ Real estate agent table:
+ |Area|Distance|Price|
+ |---|---|---|
+ |70|3|21200|
+ |50|1|22010|
+ |120|9|24305|
+ |100|2|31500|
+ 
+ 
+- Task 2: Initialize Parameters
+- Task 3: Forward Pass
+- Task 4: Compute Loss
+- Task 5: Backward Pass
+- Task 6: Update Parameters
+- Task 7: Training Loop
+- Task 8: Predictions
 
 
 ### References
